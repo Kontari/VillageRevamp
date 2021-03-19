@@ -1,0 +1,93 @@
+{
+  "0": {
+      "type": 2,
+      "name": "empty",
+      "sprite": " ",
+      "path": true
+  },
+  "1": {
+      "type": 1,
+      "name": "goblin",
+      "sprite": "g",
+      "path": true,
+      "routines": ["idle", "mine_stone"]
+  },
+  "10": {
+      "type": 2,
+      "name": "chest",
+      "sprite": "C",
+      "path": false
+  },
+  "64": {
+      "type": 2,
+      "name": "base_cornerstone",
+      "sprite": "b",
+      "path": true
+  },
+  "65": {
+      "type": 2,
+      "name": "base_floor",
+      "sprite": "B",
+      "path": true
+  },
+  "99": {
+      "type": 2,
+      "name": "water",
+      "sprite": " ",
+      "path": false
+  },
+  "100": {
+      "type": 2,
+      "name": "rock",
+      "sprite": "o",
+      "path": false
+  },
+  "101": {
+      "type": 2,
+      "name": "tree",
+      "sprite": "t",
+      "path": false
+  },
+  "102": {
+      "type": 2,
+      "name": "bush",
+      "sprite": "*",
+      "path": true
+  },
+  "103": {
+      "type": 2,
+      "name": "wall",
+      "sprite": "W",
+      "path": false
+  },
+  "104": {
+      "type": 2,
+      "name": "door",
+      "sprite": "D",
+      "path": true
+  },
+  "1000": {
+      "type": 0,
+      "name": "goblin_food"
+  },
+  "1001": {
+      "type": 0,
+      "name": "wood"
+  },
+  "1100": {
+      "type": 0,
+      "name": "pickaxe"
+  },
+  "1101": {
+      "type": 0,
+      "name": "axe"
+  },
+  "1102": {
+      "type": 0,
+      "name": "knife"
+  },
+  "2100": {
+      "type": 0,
+      "name": "stone"
+  }
+}

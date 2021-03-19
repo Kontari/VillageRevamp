@@ -1,0 +1,30 @@
+{
+  "idle": {
+      "type": 1,
+      "name": "idle",
+      "desc": "idle",
+      "growth": "0.001",
+      "start": 0.1,
+      "steps": ["idle"]
+  },
+  "wander": {
+      "type": 1,
+      "name": "wander",
+      "desc": "random walk",
+      "steps": ["seek rand"]
+  },
+  "goblin_eat": {
+      "type": 1,
+      "name": "eat food",
+      "desc": "consumes food from inventory",
+      "growth": "0.02",
+      "start": 0.001,
+      "steps": ["seek food","eat food"]
+  },
+  "mine_stone": {
+      "type": 2,
+      "name": "mine stone",
+      "desc": "collect stone and place in storage",
+      "steps": ["get pickaxe","find rock","walk to rock","mine rock","carry rock to chest"]
+  }
+}

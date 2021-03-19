@@ -1,0 +1,20 @@
+goblins need a routine to deposit items they arent using or else theft will be commonplace
+
+
+deadlock might occur if items aren't placed back after use
+
+
+multithread items
+
+
+Errors:
+
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+-- this is from pathfinding returning weird stuff where either
+1. you try moving to a tile where a pair (25,25) isn't processed as expected
+2. rendering fails for a tile (no sprite is resolved)
+3. you are trying to index a coordinate with a string instead of an int
+
+
+
+
